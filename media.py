@@ -7,7 +7,9 @@ import webbrowser
 
 class Movie():
 
-    def __init__(self, title, description, director, release, poster_image_url, trailer_youtube_url):
+    def __init__(
+            self, title, description, director, release, poster_image_url,
+            trailer_youtube_url):
         """
         The constructor for the class Movie()
         """
